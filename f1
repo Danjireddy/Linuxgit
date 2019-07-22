@@ -1,0 +1,9 @@
+git status
+git log
+git add ./*/-A
+git commit -m "label" file-name
+git show cid
+git reset --soft cid --local -- staging
+git reset HEAD file-name -- staging -- workspace
+git reset --mixed cid -- local-- workspace
+git reset --hard cid
