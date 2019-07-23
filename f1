@@ -14,3 +14,17 @@ git branch -d branchname
 git branch -m oldname newname
 git checkout -b branchname
 git merge branchname
+git stash list
+git stash save "label"
+git stash show -p stash@{0}
+git stash pop
+git stash apply
+git stash drop
+git stash clear
+git config --global alias.s "status"
+git config --global alias.l1 "log --oneline"
+git config --list
+git config --global --unset alias.s
+ignore files
+amend
+rebase:wq!
