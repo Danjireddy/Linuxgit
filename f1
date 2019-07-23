@@ -11,7 +11,7 @@ git branch
 git branch branchname
 git checkout branchname
 git branch -d branchname
-git branch -m oldname newname
+git branch -m oldname 
 git checkout -b branchname
 git merge branchname
 git stash list
