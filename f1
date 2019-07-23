@@ -7,3 +7,10 @@ git reset --soft cid --local -- staging
 git reset HEAD file-name -- staging -- workspace
 git reset --mixed cid -- local-- workspace
 git reset --hard cid
+git branch
+git branch branchname
+git checkout branchname
+git branch -d branchname
+git branch -m oldname newname
+git checkout -b branchname
+git merge branchname
